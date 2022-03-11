@@ -1,0 +1,796 @@
+.html {
+    font-family: Georgia, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("images/backgroundcompetences.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    background-color:black;
+    font-size: 18px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: sticky;
+    display: block;
+    margin: 0 35px;
+    color: white;
+    text-decoration: none;
+}
+.blocgrand {
+    margin-left: 12% ;
+    width: 75%;
+    height: 700px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    overflow: scroll;
+}
+.bloc1 {
+    margin-left: 12% ;
+    width: 75%;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    overflow-x: hidden;
+}.bloc2 {
+     margin-left: 24% ;
+     width: 75%;
+     height: 350px;
+     background-color: white;
+     position: relative;
+     top: 100px;
+     overflow-x: hidden;
+ }
+.Competences h1{
+    color: black;
+    text-decoration: underline;
+    top:50px;
+    left:50px;
+    font-size:30px;
+    margin-left: 30px;
+}
+.Competences p{
+    color: black;
+    margin-left: 30px;
+}
+.Langues h1{
+    color: black;
+    text-decoration: underline;
+    font-size:30px;
+}
+.Langues {
+    color: black;
+    margin-left: 30px;
+}
+.Logiciels h1{
+    color: black;
+    text-decoration: underline;
+    font-size:30px;
+}
+.Logiciels{
+    color: black;
+    margin-left: 30px;
+}
+.OS h1{
+    color: black;
+    text-decoration: underline;
+    font-size:30px;
+}
+.OS {
+    color: black;
+    margin-left: 30px;
+}
+@media only screen and ( max-width: 1920px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1800px) {
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1650px) {
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1500px) {
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1360px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1280px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1152px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+         top: -350px;
+     }
+}
+@media only screen and ( max-width: 1024px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display:none;
+    }
+    .bloc1 {
+        display: block;
+        margin-left: 8% ;
+        width: 40%;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 150px;
+    }.bloc2 {
+         display: block;
+         margin-left: 55% ;
+         width: 40%;
+         height: 500px;
+         background-color: white;
+         position: relative;
+}
+@media only screen and ( max-width: 910px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .blocgrand{
+        display: block;
+        margin-left: 12% ;
+        width: 75%;
+        height: 700px;
+        background-color: white;
+        position: relative;
+        top: 100px;
+        overflow: scroll;
+    }
+    .bloc1 {
+        display: none;
+    }
+    .bloc2 {
+        display: none;
+    }
+}
+@media only screen and ( max-width: 800px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 17px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a
+    {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 14px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration-color: white;
+        position: absolute;
+        top:150px;
+        left: 16%;
+        font-size:62px;
+        text-align: center;
+        -webkit-text-stroke : 1px black
+    }
+    .bloc1 {
+        display: none;
+    }
+    .bloc2 {
+        display: none;
+    }
+}
+@media only screen and ( max-width: 760px) {
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .bloc1 {
+        display: none;
+    }
+    .bloc2 {
+        display: none;
+    }
+}
+@media only screen and ( max-width: 720px) {
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+    header ul
+    {
+        position: relative;
+        display: flex;
+        font-size: 15px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+    header ul li
+    {
+        position: relative;
+        list-style: none;
+    }
+    header ul li a {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 6px;
+    }
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+}
+@media only screen and ( max-width: 650px) {
+    .Titre
+    {
+        color : white;
+        text-decoration: underline;
+        position: absolute;
+        top:150px;
+        font-size:45px;
+        text-align: center;
+    }
+    .bloc1 {
+        display: none;
+    }
+    .bloc2 {
+        display: none;
+    }
+}
+@media only screen and ( max-width: 600px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 1000;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        text-align: center;
+    }
+
+    header ul {
+        position: relative;
+        display: flex;
+        font-size: 12px;
+        -webkit-transition: blue;
+        margin-left: -8%;
+    }
+
+    header ul li {
+        position: relative;
+        list-style: none;
+    }
+
+    header ul li a {
+        position: sticky;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        margin: 0 6px;
+    }
+
+    .Titre {
+        color: white;
+        text-decoration: underline;
+        position: absolute;
+        top: 150px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .blocgrand {
+        margin-left: 12%;
+        width: 75%;
+        height: 700px;
+        background-color: white;
+        position: relative;
+        top: 100px;
+        overflow: scroll;
+    }
+
+    .bloc1 {
+        display: none;
+    }
+
+    .bloc2 {
+        display: none;
+    }
+}
+}
+
