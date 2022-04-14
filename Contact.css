@@ -58,7 +58,6 @@ header ul li a
     top: 100px;
     overflow: scroll;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .Titre h1
 {
@@ -92,19 +91,38 @@ header ul li a
         scroll-behavior: smooth;
         margin: 0 14px;
     }
+    .bloc{
+        overflow-y: hidden;
+    }
     .img1 {
-         position: relative;
-         left: 620px;
-         top: 30px;
-         }
+        position: relative;
+        left: 440px;
+        top: 30px;
+    }
     .mail h1{
         position: relative;
-        left: 675px;
+        left: 495px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 600px;
+        left: 430px;
+    }
+    .img2 {
+        position: relative;
+        left: 790px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 815px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 820px;
+        top: -365px;
     }
     .bloc_footer{
         width: 100%;
@@ -127,17 +145,33 @@ header ul li a
 @media only screen and ( max-width: 1800px) {
     .img1 {
         position: relative;
-        left: 570px;
+        left: 390px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 625px;
+        left: 445px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 550px;
+        left: 380px;
+    }
+    .img2 {
+        position: relative;
+        left: 740px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 765px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 770px;
+        top: -365px;
     }
     .bloc_footer{
         width: 100%;
@@ -160,17 +194,33 @@ header ul li a
 @media only screen and ( max-width: 1650px) {
     .img1 {
         position: relative;
-        left: 520px;
+        left: 340px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 575px;
+        left: 395px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 500px;
+        left: 330px;
+    }
+    .img2 {
+        position: relative;
+        left: 690px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 715px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 720px;
+        top: -365px;
     }
     .bloc_footer{
         width: 100%;
@@ -193,24 +243,41 @@ header ul li a
 @media only screen and ( max-width: 1500px) {
     .img1 {
         position: relative;
-        left: 470px;
+        left: 290px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 525px;
+        left: 345px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 450px;
-    }    .bloc_footer{
-             width: 100%;
-             height: 40px;
-             background-color: black;
-             top: 164px;
-             position :relative;
-         }
+        left: 280px;
+    }
+    .img2 {
+        position: relative;
+        left: 640px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 665px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 670px;
+        top: -365px;
+    }
+    .bloc_footer{
+         width: 100%;
+         height: 40px;
+         background-color: black;
+         top: 164px;
+         position :relative;
+     }
     .footer_content{
         color: white;
         left:37%;
@@ -248,17 +315,33 @@ header ul li a
     }
     .img1 {
         position: relative;
-        left: 420px;
+        left: 240px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 475px;
+        left: 295px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 400px;
+        left: 230px;
+    }
+    .img2 {
+        position: relative;
+        left: 590px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 615px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 620px;
+        top: -365px;
     }
     .bloc_footer{
          width: 100%;
@@ -304,17 +387,33 @@ header ul li a
     }
     .img1 {
         position: relative;
-        left: 380px;
+        left: 190px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 435px;
+        left: 245px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 360px;
+        left: 180px;
+    }
+    .img2 {
+        position: relative;
+        left: 540px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 565px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 570px;
+        top: -365px;
     }
     .bloc_footer{
         width: 100%;
@@ -359,17 +458,34 @@ header ul li a
     }
     .img1 {
         position: relative;
-        left: 330px;
+        left: 140px;
         top: 30px;
     }
     .mail h1{
         position: relative;
-        left: 385px;
+        left: 195px;
         font-size: 30px;
     }
     .mail h2{
         position: relative;
-        left: 310px;
+        left: 130px;
+    }
+    .img2 {
+        position: relative;
+        left: 490px;
+        top: -350px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 515px;
+        font-size: 30px;
+        top: -365px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 520px;
+        top: -365px;
+
     }
     .bloc_footer{
         width: 100%;
@@ -411,6 +527,9 @@ header ul li a
         scroll-behavior: smooth;
         margin: 0 14px;
     }
+    .bloc{
+        overflow-y: visible;
+    }
     .img1 {
         position: relative;
          left: 290px;
@@ -424,6 +543,22 @@ header ul li a
     .mail h2{
         position: relative;
         left: 270px;
+    }
+    .img2 {
+        position: relative;
+        left: 290px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 315px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 320px;
+        top: 10px;
     }
     .bloc_footer{
         width: 100%;
@@ -479,6 +614,22 @@ header ul li a
     .mail h2{
         position: relative;
         left: 230px;
+    }
+    .img2 {
+        position: relative;
+        left: 250px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 275px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 280px;
+        top: 10px;
     }
     .bloc_footer{
          width: 100%;
@@ -536,6 +687,22 @@ header ul li a
         position: relative;
         left: 180px;
     }
+    .img2 {
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 235px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 240px;
+        top: 10px;
+    }
 }
 @media only screen and ( max-width: 760px) {
     .img1 {
@@ -551,6 +718,22 @@ header ul li a
     .mail h2{
         position: relative;
         left: 160px;
+    }
+    .img2 {
+        position: relative;
+        left: 180px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 215px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 220px;
+        top: 10px;
     }
     .bloc_footer{
         width: 100%;
@@ -606,6 +789,22 @@ header ul li a
         position: relative;
         left: 140px;
     }
+    .img2 {
+        position: relative;
+        left: 160px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 195px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 200px;
+        top: 10px;
+    }
     .bloc_footer{
         width: 100%;
         height: 40px;
@@ -638,6 +837,22 @@ header ul li a
     .mail h2{
         position: relative;
         left: 110px;
+    }
+    .img2 {
+        position: relative;
+        left: 130px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 165px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 170px;
+        top: 10px;
     }
     .bloc_footer{
         width: 100%;
@@ -690,6 +905,22 @@ header ul li a
     .mail h2{
         position: relative;
         left: 65px;
+    }
+    .img2 {
+        position: relative;
+        left: 80px;
+        top: 30px;
+    }
+    .telephone h1{
+        position: relative;
+        left: 115px;
+        font-size: 30px;
+        top: 10px;
+    }
+    .telephone h2{
+        position: relative;
+        left: 120px;
+        top: 10px;
     }
     .bloc_footer{
         width: 100%;
