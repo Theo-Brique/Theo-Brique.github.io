@@ -78,7 +78,7 @@ header ul li a
     {
         position: relative;
         display: flex;
-        font-size: 18px;
+        font-size: 17px;
         -webkit-transition: blue;
         margin-left: -8%;
     }
