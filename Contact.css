@@ -106,6 +106,23 @@ header ul li a
         position: relative;
         left: 600px;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 173px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:38%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1800px) {
     .img1 {
@@ -121,6 +138,23 @@ header ul li a
     .mail h2{
         position: relative;
         left: 550px;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:38%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 1650px) {
@@ -138,6 +172,23 @@ header ul li a
         position: relative;
         left: 500px;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:37%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1500px) {
     .img1 {
@@ -153,7 +204,24 @@ header ul li a
     .mail h2{
         position: relative;
         left: 450px;
+    }    .bloc_footer{
+             width: 100%;
+             height: 40px;
+             background-color: black;
+             top: 164px;
+             position :relative;
+         }
+    .footer_content{
+        color: white;
+        left:37%;
+        top:7px;
+        position: relative;
     }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
+
 }
 @media only screen and ( max-width: 1360px) {
     header ul
@@ -192,6 +260,24 @@ header ul li a
         position: relative;
         left: 400px;
     }
+    .bloc_footer{
+         width: 100%;
+         height: 40px;
+         background-color: black;
+         top: 164px;
+         position :relative;
+     }
+    .footer_content{
+        color: white;
+        left:36%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
+
 }
 @media only screen and ( max-width: 1280px) {
     header ul
@@ -229,6 +315,23 @@ header ul li a
     .mail h2{
         position: relative;
         left: 360px;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:34%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 1152px) {
@@ -268,6 +371,23 @@ header ul li a
         position: relative;
         left: 310px;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:34%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1024px) {
     header ul {
@@ -304,6 +424,23 @@ header ul li a
     .mail h2{
         position: relative;
         left: 270px;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:31%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 910px) {
@@ -343,6 +480,24 @@ header ul li a
         position: relative;
         left: 230px;
     }
+    .bloc_footer{
+         width: 100%;
+         height: 40px;
+         background-color: black;
+         top: 164px;
+         position :relative;
+     }
+    .footer_content{
+        color: white;
+        left:29%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
+
 }
 @media only screen and ( max-width: 800px) {
     header ul
@@ -397,6 +552,23 @@ header ul li a
         position: relative;
         left: 160px;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:26%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 720px) {
     header ul
@@ -434,6 +606,23 @@ header ul li a
         position: relative;
         left: 140px;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:22%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 650px) {
     .img1 {
@@ -449,6 +638,23 @@ header ul li a
     .mail h2{
         position: relative;
         left: 110px;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:19%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 600px) {
@@ -484,6 +690,23 @@ header ul li a
     .mail h2{
         position: relative;
         left: 65px;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 164px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:17%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 

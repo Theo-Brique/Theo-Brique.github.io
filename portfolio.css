@@ -8,6 +8,8 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 a:hover /* Apparence au survol des liens */
 {
@@ -105,6 +107,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 873px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:38%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1800px) {
     .Titre
@@ -117,6 +136,23 @@ header ul li a
         font-size:66px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:37%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 1650px) {
@@ -131,6 +167,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:37%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1500px) {
     .Titre
@@ -143,6 +196,23 @@ header ul li a
         font-size:66px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:35%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
     @media only screen and ( max-width: 1360px) {
@@ -192,6 +262,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+        .bloc_footer{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            top: 860px;
+            position :relative;
+        }
+        .footer_content{
+            color: white;
+            left:34%;
+            top:7px;
+            position: relative;
+        }
+        .footer_content a{
+            top : 7px;
+            position: relative;
+        }
 }
 @media only screen and ( max-width: 1280px) {
     header
@@ -239,6 +326,23 @@ header ul li a
         font-size:66px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:33%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 1152px) {
@@ -288,6 +392,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+    .bloc_footer{
+         width: 100%;
+         height: 40px;
+         background-color: black;
+         top: 860px;
+         position :relative;
+     }
+    .footer_content{
+        color: white;
+        left:33%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1024px) {
     header
@@ -336,6 +457,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:30%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 910px) {
     header
@@ -383,6 +521,23 @@ header ul li a
         font-size:63px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:28%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 800px) {
@@ -433,6 +588,23 @@ header ul li a
         -webkit-text-stroke : 1px black
 
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:26%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 760px) {
     .Titre
@@ -445,6 +617,23 @@ header ul li a
         font-size:60px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:26%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 720px) {
@@ -493,6 +682,23 @@ header ul li a
         text-align: center;
         -webkit-text-stroke : 1px black
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:22%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 650px) {
     .Titre
@@ -505,6 +711,23 @@ header ul li a
         font-size:49px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:19%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 @media only screen and ( max-width: 600px) {
@@ -553,5 +776,22 @@ header ul li a
         font-size:49px;
         text-align: center;
         -webkit-text-stroke : 1px black
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 860px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:17%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
