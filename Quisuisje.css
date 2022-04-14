@@ -8,6 +8,8 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 a:hover
 {
@@ -137,6 +139,40 @@ header ul li a
         float: right;
         position: relative;
     }
+    .bloc_footer{
+        width: 101%;
+        height: 40px;
+        background-color: black;
+        top: 267px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:750px;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 267px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:38%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1360px) {
     header
@@ -199,6 +235,23 @@ header ul li a
         top: -20px;
         right: 10px;
         float: right;
+        position: relative;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 257px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:36%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
         position: relative;
     }
 }
@@ -265,6 +318,23 @@ header ul li a
         float: right;
         position: relative;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 257px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:34%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 1152px) {
     header
@@ -327,6 +397,23 @@ header ul li a
         top: -20px;
         right: 0;
         float: right;
+        position: relative;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 217px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:34%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
         position: relative;
     }
 }
@@ -393,6 +480,23 @@ header ul li a
         float: right;
         position: relative;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 187px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:31%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 910px) {
     header
@@ -456,6 +560,23 @@ header ul li a
         top: -20px;
         right: 0;
         float: right;
+        position: relative;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 177px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:29%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
         position: relative;
     }
 }
@@ -524,6 +645,23 @@ header ul li a
     .photopetite{
         display: none;
     }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 157px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:26%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 720px) {
     header
@@ -587,7 +725,23 @@ header ul li a
     .photopetite{
         display: none;
     }
-
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 117px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:22%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
+    }
 }
 @media only screen and ( max-width: 600px) {
     header
@@ -647,6 +801,23 @@ header ul li a
     }
     .photo{
         display: none;
+    }
+    .bloc_footer{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 77px;
+        position :relative;
+    }
+    .footer_content{
+        color: white;
+        left:17%;
+        top:7px;
+        position: relative;
+    }
+    .footer_content a{
+        top : 7px;
+        position: relative;
     }
 }
 
